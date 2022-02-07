@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void main()
+{
+    int year,month,days,hour,minute,second;
+    printf("how old are you [in Years]:");
+    scanf("%d",&year);
+    month=year*12;
+    days=year*365;
+    hour=days*24;
+    minute=hour*60;
+    second=minute*60;
+    printf("\n month:%d \n days:%d \n hour:%d \n minute:%d \n second:%d ",month,
+    days,hour,minute,second);
+    
+}

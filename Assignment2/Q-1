@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main()
+{
+    float weekly,monthly,annualByMonthly,annualByWeekly,ratePerHour,dailyWorkHour,daily;
+    printf("Enter the daily work hour: ");
+    scanf("%f",&dailyWorkHour);
+    printf("Enter the rate per hour: ");
+    scanf("%f",&ratePerHour);
+    daily=dailyWorkHour*ratePerHour;
+    printf("weekly earning: %.2f",weekly=daily*7);
+    printf("\nmonthly earning: %.2f",monthly=weekly*4);
+    printf("\nAnnual earning by monthly: %.2f",annualByMonthly=monthly*12);
+    printf("\nAnnual earning by weekly: %.2f",annualByWeekly=weekly*52);
+
+    
+}

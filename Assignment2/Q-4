@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+void main()
+{
+    int length,width,area,height,base;
+    float radius,ca;
+    printf("enter the Length of rectangle:");
+    scanf("%d",&length);
+    printf("enter the width of rectangle:");
+    scanf("%d",&width);
+    printf("Area of rectangle:%d",area=length*width);
+    
+    printf("\nenter the Base of triangle:");
+    scanf("%d",&base);
+    printf("enter the Height of triangle:");
+    scanf("%d",&height);
+    printf("Area of triangle:%d",area=(base*height)/2);
+    
+    printf("\nenter the Radius of Circle:");
+    scanf("%f",&radius);
+    printf("Area of triangle:%.2f",ca=3.14*(radius*radius));
+    
+    printf("\nenter the Length of Square:");
+    scanf("%d",&length);
+    printf("Area of Square:%d",area=length*length);
+}

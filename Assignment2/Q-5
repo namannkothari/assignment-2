@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+    float length,width,area,yard;
+    
+    printf("enter the Length:");
+    scanf("%f",&length);
+    printf("enter the width:");
+    scanf("%f",&width);
+    printf("Area of room in Square feet:%f",area=length*width);
+    
+    printf("\nArea of room in Square yard:%f",yard=area/9);
+}
